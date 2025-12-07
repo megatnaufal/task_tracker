@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Tracker Portal - Categories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/css_style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="dashboard.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="currentColor" class="bi bi-journal-bookmark-fill" viewBox="0 0 10 16">
+          <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+          <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+          <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+          <li class="nav-item"><a class="nav-link active" href="guide.html">Guide</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+          <li class="nav-item">
+            <button class="btn btn-outline-light btn-sm ms-2 d-flex align-items-center" id="darkModeToggle" aria-label="Toggle dark mode">
+              <span id="darkModeIcon">☾</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container my-4">
+    <h3 class="mb-2">How to Plan Your Tasks</h3>
+    <p class="text-muted small mb-4">
+      Use this guide when you add or edit tasks on the <strong>Tasks</strong> page.
+    </p>
+
+    <!-- Field guide cards -->
+    <div class="row g-3 mb-4">
+      <div class="col-md-6">
+        <div class="card summary-card shadow-sm">
+          <div class="card-body small">
+            <h6 class="text-uppercase text-muted mb-2">Task Title</h6>
+            <p class="mb-1">Write a short, clear name for the task.</p>
+            <ul class="mb-0">
+              <li>Bad: “Assignment”</li>
+              <li>Better: “IMS566 Report – Draft Introduction”</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card summary-card shadow-sm">
+          <div class="card-body small">
+<h6 class="text-uppercase text-muted mb-2">Task Type</h6>
+<p class="mb-1">Use the title and description to explain what the task is about.</p>
+<ul class="mb-0">
+  <li><strong>Study-related</strong> – classwork, assignments, revision</li>
+  <li><strong>Personal</strong> – health, hobbies, self‑care</li>
+  <li><strong>Work / Project</strong> – project steps, meetings, reports</li>
+  <li><strong>General</strong> – reminders, daily to‑dos</li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-4">
+      <div class="col-md-4">
+        <div class="card summary-card shadow-sm">
+          <div class="card-body small">
+            <h6 class="text-uppercase text-muted mb-2">Priority</h6>
+            <ul class="mb-0">
+              <li><span class="badge bg-danger">High</span> – must do today/soon</li>
+              <li><span class="badge bg-warning text-dark">Medium</span> – important but not urgent</li>
+              <li><span class="badge bg-success">Low</span> – nice to do if you have time</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card summary-card shadow-sm">
+          <div class="card-body small">
+            <h6 class="text-uppercase text-muted mb-2">Status</h6>
+            <ul class="mb-0">
+              <li><strong>To Do</strong> – not started</li>
+              <li><strong>In Progress</strong> – currently working on it</li>
+              <li><strong>Done</strong> – completed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card summary-card shadow-sm">
+          <div class="card-body small">
+            <h6 class="text-uppercase text-muted mb-2">Due Date</h6>
+            <p class="mb-1">Set the date you want to finish the task.</p>
+            <p class="mb-0">Use realistic dates so your dashboard and charts show a clear plan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tip + button to go to Tasks -->
+    <div class="card shadow-sm category-card">
+      <div class="card-body small d-flex flex-column flex-md-row justify-content-between align-items-md-center">
+        <div class="mb-2 mb-md-0">
+          <strong>Tip:</strong>
+          When your dashboard shows many <span class="badge bg-danger">High</span>
+          priority tasks or many <strong>Deadlines</strong>, it’s a sign you should start early.
+        </div>
+        <div class="text-md-end">
+          <a href="tasks.html" class="btn btn-primary btn-sm mt-2 mt-md-0">
+            Go to Tasks and add a new task
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-muted small py-3">
+    <span class="text-muted">Task Tracker &copy; 2025 by Megat & Faris· IMS566 Project</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/js_darkmode.js"></script>
+</body>
+</html>
