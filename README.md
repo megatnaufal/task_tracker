@@ -47,7 +47,18 @@ Task Tracker is a responsive web application that helps users create, organize, 
 
 ## 📁 Project Structure
 
-Directory / FileDescription/Root Directory├── index.htmlLogin Page (Entry Point).├── dashboard.htmlMain Dashboard (KPIs & Charts).├── cars.htmlVehicle Inventory Page.├── rentals.htmlRental Transaction Logs.├── customers.htmlCustomer Database.├── maintenance.htmlService & Repair Logs.├── profile.htmlAdmin Profile Settings.├── settings.htmlSystem Configuration.├── css/Styling Assets Directory│ ├── style.cssMain Layout & Component Styles.│ └── themes.cssColor Variables & Dark Mode Logic.├── js/JavaScript Logic Directory│ ├── auth.jsLogin/Logout & Session Logic.│ ├── dashboard.jsCharts & KPI Calculations.│ ├── data.jsData Storage (LocalStorage Engine).│ ├── logic.jsCRUD Operations (Add/Edit/Delete).│ ├── main.jsGlobal Initialization & Sidebar Logic.│ └── render.jsHTML Table Generators.└── images/Assets (Car photos, User avatars, Logo).
+task_tracker/
+├── index.html           # Landing / Entry Page
+├── dashboard.html       # Main Dashboard (Stats & Charts)
+├── tasks.html           # Task List / Management Page
+├── guide.html           # User Guide / Instructions
+├── css/
+│   └── css_style.css    # Custom Styles (Layout, Colors, Dark Mode, etc.)
+└── js/
+    ├── js_dashboard_chart.js # Logic for dashboard charts (status & priority)
+    ├── js_dashboard_recent.js# Rendering recent tasks on dashboard
+    ├── js_darkmode.js       # Dark mode toggle handling
+    └── js_tasks.js          # Task data and related logic
 ---
 
 ## 📱 Responsive Design
