@@ -47,19 +47,19 @@ Task Tracker is a responsive web application that helps users create, organize, 
 
 ## 📁 Project Structure
 
-task_tracker/
-├── index.html # Landing / entry page
-├── dashboard.html # Main dashboard with stats & charts
-├── tasks.html # Task list / management page
-├── guide.html # User guide / instructions
-├── css/
-│ └── css_style.css # Custom styles (layout, colors, dark mode, etc.)
-└── js/
-├── js_dashboard_chart.js # Logic for dashboard charts (status & priority)
-├── js_dashboard_recent.js# Rendering recent tasks on dashboard
-├── js_darkmode.js # Dark mode toggle handling
-└── js_tasks.js # Task data and related logic
-
+Directory / #File,Description
+task_tracker/ #Root Directory
+├── index.html #Landing / entry page of the application.
+├── dashboard.html #Main dashboard displaying key statistics and charts.
+├── tasks.html #"Page for managing the full task list (add, edit, delete)."
+├── guide.html #User guide and application instructions.
+├── css/ #Styling Assets Directory
+│ └── css_style.css, #Custom styles (layout, colors, dark mode, typography, etc.)."
+└── js/,JavaScript Logic Directory
+├── js_dashboard_chart.js #Logic for rendering dashboard charts (task status and priority).
+├── js_dashboard_recent.js #Renders and manages the list of recent tasks on the dashboard.
+├── js_darkmode.js #Handles the functionality for the dark mode toggle.
+└── js_tasks.js, #Core logic for task data management and task-list rendering.
 
 ---
 
