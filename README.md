@@ -61,6 +61,11 @@ task_tracker/
     └── js_tasks.js          # Task data and related logic
 
 ---
+Project Screenshot
+1. Secure Login
+(Authentication page with validation and error handling)
+<img width="1917" height="968" alt="image" src="https://github.com/user-attachments/assets/cd7b28fd-51bd-473f-b49a-84ac016d8cd8" />
+
 
 ## 📱 Responsive Design
 
