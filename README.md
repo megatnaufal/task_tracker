@@ -47,20 +47,27 @@ Task Tracker is a responsive web application that helps users create, organize, 
 
 ## 📁 Project Structure
 
-Directory / #File,Description
-task_tracker/ #Root Directory
-├── index.html #Landing / entry page of the application.
-├── dashboard.html #Main dashboard displaying key statistics and charts.
-├── tasks.html #"Page for managing the full task list (add, edit, delete)."
-├── guide.html #User guide and application instructions.
-├── css/ #Styling Assets Directory
-│ └── css_style.css, #Custom styles (layout, colors, dark mode, typography, etc.)."
-└── js/,JavaScript Logic Directory
-├── js_dashboard_chart.js #Logic for rendering dashboard charts (task status and priority).
-├── js_dashboard_recent.js #Renders and manages the list of recent tasks on the dashboard.
-├── js_darkmode.js #Handles the functionality for the dark mode toggle.
-└── js_tasks.js, #Core logic for task data management and task-list rendering.
-
+Directory / File,Description
+/,Root Directory
+├── index.html,Login Page (Entry Point).
+├── dashboard.html,Main Dashboard (KPIs & Charts).
+├── cars.html,Vehicle Inventory Page.
+├── rentals.html,Rental Transaction Logs.
+├── customers.html,Customer Database.
+├── maintenance.html,Service & Repair Logs.
+├── profile.html,Admin Profile Settings.
+├── settings.html,System Configuration.
+├── css/,Styling Assets Directory
+│ ├── style.css,Main Layout & Component Styles.
+│ └── themes.css,Color Variables & Dark Mode Logic.
+├── js/,JavaScript Logic Directory
+│ ├── auth.js,Login/Logout & Session Logic.
+│ ├── dashboard.js,Charts & KPI Calculations.
+│ ├── data.js,Data Storage (LocalStorage Engine).
+│ ├── logic.js,CRUD Operations (Add/Edit/Delete).
+│ ├── main.js,Global Initialization & Sidebar Logic.
+│ └── render.js,HTML Table Generators.
+└── images/,"Assets (Car photos, User avatars, Logo)."
 ---
 
 ## 📱 Responsive Design
