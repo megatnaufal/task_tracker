@@ -1,6 +1,6 @@
 # Task Tracker Portal
 
-Task Tracker is a colorful, responsive web application that helps users create, organize, and track their tasks through a clean dashboard, task list, and helpful visual charts.
+Task Tracker is a responsive web application that helps users create, organize, and track their tasks through a clean dashboard, task list, and helpful visual charts.
 
 🔗 **Live Demo:** https://megatnaufal.github.io/task_tracker/index.html  
 
@@ -46,4 +46,54 @@ Task Tracker is a colorful, responsive web application that helps users create, 
 ---
 
 ## 📁 Project Structure
+
+task_tracker/
+├── index.html # Landing / entry page
+├── dashboard.html # Main dashboard with stats & charts
+├── tasks.html # Task list / management page
+├── guide.html # User guide / instructions
+├── css/
+│ └── css_style.css # Custom styles (layout, colors, dark mode, etc.)
+└── js/
+├── js_dashboard_chart.js # Logic for dashboard charts (status & priority)
+├── js_dashboard_recent.js# Rendering recent tasks on dashboard
+├── js_darkmode.js # Dark mode toggle handling
+└── js_tasks.js # Task data and related logic
+
+
+---
+
+## 📱 Responsive Design
+
+- Uses Bootstrap’s grid system and utility classes.
+
+---
+
+## 🌙 Dark Mode
+
+- Dark mode toggle button in the navbar.
+- Uses JavaScript (`js_darkmode.js`) to:
+- Switch `body` between light and dark classes.
+- Update the icon (e.g. moon/sun).
+- Adjust card, text, and background colors accordingly.
+
+---
+
+---
+
+## 👥 Authors
+
+- Megat Naufal Syabil Bin Zamri (2025121211)
+- Faris Afizuan Bin Abd Kaharmuzakir (2025136615)
+
+📚 **Course:** IMS566  
+📅 **Year:** 2025  
+
+---
+
+## 📄 License
+
+This project is created for academic purposes (IMS566) and personal learning.  
+You may fork and adapt it for your own study or practice.
+
 
