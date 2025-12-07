@@ -47,24 +47,8 @@ Task Tracker is a responsive web application that helps users create, organize, 
 
 ## 📁 Project Structure
 
-task_tracker/
-├── index.html          # Landing / Entry Page
+<img width="703" height="332" alt="image" src="https://github.com/user-attachments/assets/4d7cb3eb-9b14-4d24-969c-185a1e5540b8" />
 
-├── dashboard.html      # Main Dashboard (Stats & Charts)
-
-├── tasks.html          # Task List / Management Page
-
-├── guide.html          # User Guide / Instructions
-
-├── css/
-
-│   ├── css_style.css   # Custom Styles (Layout, Colors, Dark Mode, etc.)
-
-├── js/
-    ├── js_dashboard_chart.js # Logic for dashboard charts (status & priority)
-    ├── js_dashboard_recent.js# Rendering recent tasks on dashboard
-    ├── js_darkmode.js       # Dark mode toggle handling
-    └── js_tasks.js          # Task data and related logic
 
 ---
 Project Screenshot
