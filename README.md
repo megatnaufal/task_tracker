@@ -66,6 +66,18 @@ Project Screenshot
 (Authentication page with validation and error handling)
 <img width="1917" height="968" alt="image" src="https://github.com/user-attachments/assets/cd7b28fd-51bd-473f-b49a-84ac016d8cd8" />
 
+2. Admin Dashboard
+<img width="1901" height="973" alt="image" src="https://github.com/user-attachments/assets/77977c21-e2d8-406c-87de-e096cfe7f6f1" />
+<img width="1901" height="967" alt="image" src="https://github.com/user-attachments/assets/350fc419-1f7b-4d1f-93f6-4af2d3d7eb3f" />
+   
+3. Tasks
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/a28175ce-d951-4961-9b1f-a571ac93af2b" />
+
+4.Guide Tasks
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/31d77540-37d1-4f7e-8e7b-6f89eb8c865d" />
+
+
+
 
 ## 📱 Responsive Design
 
