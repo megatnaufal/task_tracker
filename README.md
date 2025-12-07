@@ -47,27 +47,7 @@ Task Tracker is a responsive web application that helps users create, organize, 
 
 ## 📁 Project Structure
 
-Directory / File,Description
-/,Root Directory
-├── index.html,Login Page (Entry Point).
-├── dashboard.html,Main Dashboard (KPIs & Charts).
-├── cars.html,Vehicle Inventory Page.
-├── rentals.html,Rental Transaction Logs.
-├── customers.html,Customer Database.
-├── maintenance.html,Service & Repair Logs.
-├── profile.html,Admin Profile Settings.
-├── settings.html,System Configuration.
-├── css/,Styling Assets Directory
-│ ├── style.css,Main Layout & Component Styles.
-│ └── themes.css,Color Variables & Dark Mode Logic.
-├── js/,JavaScript Logic Directory
-│ ├── auth.js,Login/Logout & Session Logic.
-│ ├── dashboard.js,Charts & KPI Calculations.
-│ ├── data.js,Data Storage (LocalStorage Engine).
-│ ├── logic.js,CRUD Operations (Add/Edit/Delete).
-│ ├── main.js,Global Initialization & Sidebar Logic.
-│ └── render.js,HTML Table Generators.
-└── images/,"Assets (Car photos, User avatars, Logo)."
+Directory / FileDescription/Root Directory├── index.htmlLogin Page (Entry Point).├── dashboard.htmlMain Dashboard (KPIs & Charts).├── cars.htmlVehicle Inventory Page.├── rentals.htmlRental Transaction Logs.├── customers.htmlCustomer Database.├── maintenance.htmlService & Repair Logs.├── profile.htmlAdmin Profile Settings.├── settings.htmlSystem Configuration.├── css/Styling Assets Directory│ ├── style.cssMain Layout & Component Styles.│ └── themes.cssColor Variables & Dark Mode Logic.├── js/JavaScript Logic Directory│ ├── auth.jsLogin/Logout & Session Logic.│ ├── dashboard.jsCharts & KPI Calculations.│ ├── data.jsData Storage (LocalStorage Engine).│ ├── logic.jsCRUD Operations (Add/Edit/Delete).│ ├── main.jsGlobal Initialization & Sidebar Logic.│ └── render.jsHTML Table Generators.└── images/Assets (Car photos, User avatars, Logo).
 ---
 
 ## 📱 Responsive Design
